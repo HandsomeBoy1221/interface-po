@@ -1,0 +1,15 @@
+com\ceshiren\api\BaseApi.class
+com\ceshiren\entity\TokenResponse.class
+com\ceshiren\api\WeWorkAPI.class
+com\ceshiren\contacts\TokenFilter$1.class
+com\ceshiren\entity\BaseResponse.class
+com\ceshiren\util\FakerUtil.class
+com\ceshiren\entity\DepartResponse.class
+com\ceshiren\contacts\DepartApi.class
+com\ceshiren\contacts\DepartApi$1.class
+com\ceshiren\contacts\GetTokenApi.class
+com\ceshiren\util\MapperUtil$1.class
+com\ceshiren\entity\MemberResponse.class
+com\ceshiren\contacts\TokenFilter.class
+com\ceshiren\contacts\MemberApi.class
+com\ceshiren\util\MapperUtil.class

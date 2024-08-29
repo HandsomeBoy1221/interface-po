@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "errcode",
+    "errmsg",
+    "department_id"
+  ],
+  "properties": {
+    "errcode": {
+      "type": "integer",
+      "default": 0,
+      "title": "The errcode Schema",
+      "examples": [
+        0
+      ]
+    },
+    "errmsg": {
+      "type": "string",
+      "default": "",
+      "title": "The errmsg Schema",
+      "examples": [
+        "ok"
+      ]
+    },
+    "department_id": {
+      "type": "array",
+      "default": [],
+      "title": "The department_id Schema",
+      "items": {
+        "type": "object",
+        "title": "A Schema",
+        "required": [
+          "id",
+          "parentid",
+          "order"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "The id Schema",
+            "examples": [
+              1,
+              2,
+              3,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          "parentid": {
+            "type": "integer",
+            "title": "The parentid Schema",
+            "examples": [
+              0,
+              1
+            ]
+          },
+          "order": {
+            "type": "integer",
+            "title": "The order Schema",
+            "examples": [
+              100000000,
+              70,
+              64,
+              99,
+              61,
+              23,
+              14,
+              91,
+              11
+            ]
+          }
+        },
+        "examples": [{
+          "id": 1,
+          "parentid": 0,
+          "order": 100000000
+        },
+          {
+            "id": 2,
+            "parentid": 1,
+            "order": 70
+          },
+          {
+            "id": 3,
+            "parentid": 1,
+            "order": 64
+          },
+          {
+            "id": 8,
+            "parentid": 1,
+            "order": 99
+          },
+          {
+            "id": 9,
+            "parentid": 1,
+            "order": 61
+          },
+          {
+            "id": 10,
+            "parentid": 1,
+            "order": 23
+          },
+          {
+            "id": 11,
+            "parentid": 1,
+            "order": 14
+          },
+          {
+            "id": 12,
+            "parentid": 1,
+            "order": 91
+          },
+          {
+            "id": 13,
+            "parentid": 1,
+            "order": 11
+          }]
+      },
+      "examples": [
+        [{
+          "id": 1,
+          "parentid": 0,
+          "order": 100000000
+        },
+          {
+            "id": 2,
+            "parentid": 1,
+            "order": 70
+          },
+          {
+            "id": 3,
+            "parentid": 1,
+            "order": 64
+          },
+          {
+            "id": 8,
+            "parentid": 1,
+            "order": 99
+          },
+          {
+            "id": 9,
+            "parentid": 1,
+            "order": 61
+          },
+          {
+            "id": 10,
+            "parentid": 1,
+            "order": 23
+          },
+          {
+            "id": 11,
+            "parentid": 1,
+            "order": 14
+          },
+          {
+            "id": 12,
+            "parentid": 1,
+            "order": 91
+          },
+          {
+            "id": 13,
+            "parentid": 1,
+            "order": 11
+          }]
+      ]
+    }
+  },
+  "examples": [{
+    "errcode": 0,
+    "errmsg": "ok",
+    "department_id": [{
+      "id": 1,
+      "parentid": 0,
+      "order": 100000000
+    },
+      {
+        "id": 2,
+        "parentid": 1,
+        "order": 70
+      },
+      {
+        "id": 3,
+        "parentid": 1,
+        "order": 64
+      },
+      {
+        "id": 8,
+        "parentid": 1,
+        "order": 99
+      },
+      {
+        "id": 9,
+        "parentid": 1,
+        "order": 61
+      },
+      {
+        "id": 10,
+        "parentid": 1,
+        "order": 23
+      },
+      {
+        "id": 11,
+        "parentid": 1,
+        "order": 14
+      },
+      {
+        "id": 12,
+        "parentid": 1,
+        "order": 91
+      },
+      {
+        "id": 13,
+        "parentid": 1,
+        "order": 11
+      }]
+  }]
+}

@@ -1,0 +1,29 @@
+#多环境区分 线上环境 HashMap<String, HashMap<String, HashMap<String,String>>>
+master:
+  # 通讯录应用 HashMap<String, HashMap<String,String>>
+  contacts:
+#    HashMap<String,String>
+    corpid: wwb24e6fe4d7d1c71a
+    corpsecret: yIhI9TMNunyO38XkFESwsGu-zbihqbsdmfn38Rfz3Ck
+  contacts2:
+    #    HashMap<String,String>
+    corpid: 1wwecb0ab2da18a7c3b
+    corpsecret: 16Yg1wwQ_gZIUTXezXfVtnbSfD01619-jo1LpopQT7w0
+  # 自建应用
+  sendMessage:
+    corpid: wwecb0ab2da18a7c3b
+    corpsecret: Qpj8Te-MJirkiBGxQafctksBFYEkW07Xuy7CQPiyCKM
+dev:
+  contacts:
+    corpid: wwecb0ab2da18a7c3b0
+    corpsecret: 6Yg1wwQ_gZIUTXezXfVtnbSfD01619-jo1LpopQT7w0
+  sendMessage:
+    corpid: wwecb0ab2da18a7c3b
+    corpsecret: Qpj8Te-MJirkiBGxQafctksBFYEkW07Xuy7CQPiyCKM
+qa:
+  contacts:
+    corpid: wwecb0ab2da18a7c3b
+    corpsecret: 6Yg1wwQ_gZIUTXezXfVtnbSfD01619-jo1LpopQT7w0
+  sendMessage:
+    corpid: wwecb0ab2da18a7c3b
+    corpsecret: Qpj8Te-MJirkiBGxQafctksBFYEkW07Xuy7CQPiyCKM

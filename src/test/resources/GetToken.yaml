@@ -1,0 +1,3 @@
+# 测试用例yaml文件
+- getToken()
+  - key : master.contacts

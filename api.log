@@ -1,0 +1,188 @@
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=zev5K56lAmTNgk17DfGy9LQSEkQOBnMw7JYKb8k9T8QqaDWnDyRSNz3feEIhmjj4LxYsXytmCGx8G1uy_oNvePz7rfDTmObMJZMhxJmnGxCTr1_RhJE2Iei4MhohDf7ekSZEOJsFvAgjsJBeExnKj5CnVaNtIsUba6kDGJZjp-BJjk4wVVNubrzeSsGXNyhveyD22lqt7eUTfSuvKqaXww
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=zev5K56lAmTNgk17DfGy9LQSEkQOBnMw7JYKb8k9T8QqaDWnDyRSNz3feEIhmjj4LxYsXytmCGx8G1uy_oNvePz7rfDTmObMJZMhxJmnGxCTr1_RhJE2Iei4MhohDf7ekSZEOJsFvAgjsJBeExnKj5CnVaNtIsUba6kDGJZjp-BJjk4wVVNubrzeSsGXNyhveyD22lqt7eUTfSuvKqaXww
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "ÈîÄÂîÆÈÉ®",
+    "parentid": 1,
+    "order": 48
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Dec 2022 09:17:52 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 176
+Connection: keep-alive
+Server: nginx
+Error-Code: 60008
+Error-Msg: department existed, hint: [1671959872339602642237886], from ip: 111.164.178.158, more info at https://open.work.weixin.qq.com/devtool/query?e=60008
+
+{
+    "errcode": 60008,
+    "errmsg": "department existed, hint: [1671959872339602642237886], from ip: 111.164.178.158, more info at https://open.work.weixin.qq.com/devtool/query?e=60008"
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=zev5K56lAmTNgk17DfGy9LQSEkQOBnMw7JYKb8k9T8QqaDWnDyRSNz3feEIhmjj4LxYsXytmCGx8G1uy_oNvePz7rfDTmObMJZMhxJmnGxCTr1_RhJE2Iei4MhohDf7ekSZEOJsFvAgjsJBeExnKj5CnVaNtIsUba6kDGJZjp-BJjk4wVVNubrzeSsGXNyhveyD22lqt7eUTfSuvKqaXww
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=zev5K56lAmTNgk17DfGy9LQSEkQOBnMw7JYKb8k9T8QqaDWnDyRSNz3feEIhmjj4LxYsXytmCGx8G1uy_oNvePz7rfDTmObMJZMhxJmnGxCTr1_RhJE2Iei4MhohDf7ekSZEOJsFvAgjsJBeExnKj5CnVaNtIsUba6kDGJZjp-BJjk4wVVNubrzeSsGXNyhveyD22lqt7eUTfSuvKqaXww
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "ÊÄªÂä°ÈÉ®20",
+    "parentid": 1,
+    "order": 75
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Dec 2022 09:18:10 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 40
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 15
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=zev5K56lAmTNgk17DfGy9LQSEkQOBnMw7JYKb8k9T8QqaDWnDyRSNz3feEIhmjj4LxYsXytmCGx8G1uy_oNvePz7rfDTmObMJZMhxJmnGxCTr1_RhJE2Iei4MhohDf7ekSZEOJsFvAgjsJBeExnKj5CnVaNtIsUba6kDGJZjp-BJjk4wVVNubrzeSsGXNyhveyD22lqt7eUTfSuvKqaXww
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=zev5K56lAmTNgk17DfGy9LQSEkQOBnMw7JYKb8k9T8QqaDWnDyRSNz3feEIhmjj4LxYsXytmCGx8G1uy_oNvePz7rfDTmObMJZMhxJmnGxCTr1_RhJE2Iei4MhohDf7ekSZEOJsFvAgjsJBeExnKj5CnVaNtIsUba6kDGJZjp-BJjk4wVVNubrzeSsGXNyhveyD22lqt7eUTfSuvKqaXww
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "ÂÆ¢Êà∑ÊúçÂä°ÈÉ®10",
+    "parentid": 1,
+    "order": 93
+}
+HTTP/1.1 200 OK
+Date: Sun, 25 Dec 2022 09:23:33 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 40
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 16
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=inXEzrO2mYZU4l0NjetS1BnJP-d49FG115xIbKtI4zjolapDCuqAK8kNk__2EeL6aZ3xUWW0JQbWF7M4_Zo9yIf8reKl8_xVqirzDspjskCdgNd6w3Scfn7j1XdSJok5rSeHHiaG7-nWwERyRl0_oyxgoRxAzBLl-nNN9JUzcdSU7zVrmKwopaagEiFLqPAchyfWURxy3p1Se3se1F0IwQ
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=inXEzrO2mYZU4l0NjetS1BnJP-d49FG115xIbKtI4zjolapDCuqAK8kNk__2EeL6aZ3xUWW0JQbWF7M4_Zo9yIf8reKl8_xVqirzDspjskCdgNd6w3Scfn7j1XdSJok5rSeHHiaG7-nWwERyRl0_oyxgoRxAzBLl-nNN9JUzcdSU7zVrmKwopaagEiFLqPAchyfWURxy3p1Se3se1F0IwQ
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "≤˙∆∑≤ø63",
+    "parentid": 1,
+    "order": 72
+}
+HTTP/1.1 200 OK
+Date: Thu, 29 Aug 2024 13:58:05 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 39
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+X-W-No: 4
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 5
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=inXEzrO2mYZU4l0NjetS1BnJP-d49FG115xIbKtI4zjolapDCuqAK8kNk__2EeL6aZ3xUWW0JQbWF7M4_Zo9yIf8reKl8_xVqirzDspjskCdgNd6w3Scfn7j1XdSJok5rSeHHiaG7-nWwERyRl0_oyxgoRxAzBLl-nNN9JUzcdSU7zVrmKwopaagEiFLqPAchyfWURxy3p1Se3se1F0IwQ
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=inXEzrO2mYZU4l0NjetS1BnJP-d49FG115xIbKtI4zjolapDCuqAK8kNk__2EeL6aZ3xUWW0JQbWF7M4_Zo9yIf8reKl8_xVqirzDspjskCdgNd6w3Scfn7j1XdSJok5rSeHHiaG7-nWwERyRl0_oyxgoRxAzBLl-nNN9JUzcdSU7zVrmKwopaagEiFLqPAchyfWURxy3p1Se3se1F0IwQ
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "≤∆ŒÒ≤ø90",
+    "parentid": 1,
+    "order": 29
+}
+HTTP/1.1 200 OK
+Date: Thu, 29 Aug 2024 14:01:47 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 39
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+X-W-No: 2
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 2
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=inXEzrO2mYZU4l0NjetS1BnJP-d49FG115xIbKtI4zjolapDCuqAK8kNk__2EeL6aZ3xUWW0JQbWF7M4_Zo9yIf8reKl8_xVqirzDspjskCdgNd6w3Scfn7j1XdSJok5rSeHHiaG7-nWwERyRl0_oyxgoRxAzBLl-nNN9JUzcdSU7zVrmKwopaagEiFLqPAchyfWURxy3p1Se3se1F0IwQ
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=inXEzrO2mYZU4l0NjetS1BnJP-d49FG115xIbKtI4zjolapDCuqAK8kNk__2EeL6aZ3xUWW0JQbWF7M4_Zo9yIf8reKl8_xVqirzDspjskCdgNd6w3Scfn7j1XdSJok5rSeHHiaG7-nWwERyRl0_oyxgoRxAzBLl-nNN9JUzcdSU7zVrmKwopaagEiFLqPAchyfWURxy3p1Se3se1F0IwQ
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "œ˙ €≤ø21",
+    "parentid": 1,
+    "order": 47
+}
+HTTP/1.1 200 OK
+Date: Thu, 29 Aug 2024 14:02:06 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 39
+Connection: keep-alive
+Server: nginx
+Error-Code: 0
+Error-Msg: created
+X-W-No: 2
+
+{
+    "errcode": 0,
+    "errmsg": "created",
+    "id": 3
+}
